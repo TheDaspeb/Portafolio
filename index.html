@@ -6,36 +6,93 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Eater&display=swap" rel="stylesheet">
     <title>Portafolio 2.0</title>
 </head>
+
 <body>
     <header>
-        <nav class="navegacion">
-            <ul>
-                <li><a href="#sobre-mi">Sobre mi</a></li>
-                <li><a href="mascotas.html">Mis mascotas</a></li>
-                <li><a href="#contacto">Como cantactarme</a></li>
+        <nav >
+            <ul class="navegacion">
+                <li class="inicio"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="inicio"><a href="mascotas.html">Mis mascotas</a></li>
+                <li class="inicio"><a href="#mis-habilidades">Mis habilidades</a></li>
+                <li class="inicio"><a href="#contacto">Como contactarme</a></li>
             </ul>
         </nav>
     </header>
     <h1>Mi portafolio</h1>
     <main>
         <section class="contenedor">
-            <div class="caja1 caja">Caja1</div>
-            <div class="caja2 caja">Caja2</div>
+            <div class="caja1 caja izquierda"></div>
+            <div class="caja2 caja derecha"></div>
             <div class="caja3 caja">
                 <h2 id="sobre-mi">Sobre mi</h2>
-                <img src="img/yo.png" alt="Foto de mi">
+                <img src="img/yo.png" width="300px" height="300px">
                 <p>
                     Soy una persona alta, con ganas de aprender muchas cosas, donde quiero esforzarme al
                     maximo, sacar a mi padres adelante, quiero que la gente se fije en mi, por lo que se, volverme 
                     valioso, y que me den la oportunidad de demostrar lo que valgo.
                 </p>
             </div>
-            <div class="caja4 caja">Caja4</div>
-            <div class="caja5 caja">Caja5</div>
+            <div class="caja4 caja izquierda"></div>
+            <div class="caja5 caja derecha"></div>
         </section>
+
+        <section id="mis-habilida" class="contenedor2">
+            <nav>
+                <h2>Mis habilidades</h2>
+                <ul class="habilidades">
+                    <li class="habi">HTML</li>
+                    <li class="habi">CSS</li>
+                    <li class="habi">JavaScript</li>
+                    <li class="habi">Python</li>
+                    <li class="habi">Ingles Basico</li>
+                </ul>
+            </nav>
+            
+        </section>
+    
+        <h2>Mis proyectos</h2>
+        
+        <section class="proyectos contenedor3">
+            <div class="python">
+                <h3>Proyecto Python</h3>
+                    <p>
+                        Acá veras las historias de usuario de python y
+                        Tabién la prueba de desempeño.
+                    </p>
+                    <a href="https://github.com/TheDaspeb/Pruebas-de-desempe-o" target="_blank" rel="noopener noreferrer">Prueba de desempeño</a><br> 
+                    <a href="https://github.com/TheDaspeb/Trabajos-fin-de-semana" target="_blank" rel="noopener noreferrer">Historia de usuario</a><br>
+                    <a href="https://github.com/TheDaspeb/Celula_6_" target="_blank" rel="noopener noreferrer">primer trabajo en celulas</a><br>
+                    <img src="img/python.webp" width="150px" height="150px">
+            </div>
+
+            <div class="html">
+                <h3>Proyecto HTML</h3>
+                <p>
+                    Acá veras los proyectos realizados en HTML y CSS,
+                    entre ellos mi primer portafolio y trabajos en celulas.
+                </p>
+                <a href="https://github.com/TheDaspeb/proyecto" target="_blank" rel="noopener noreferrer">Mi primer portafolio</a> <br>
+                <a href="https://github.com/Celula6-Pag/Ciudad_conocimiento" target="_blank" rel="noopener noreferrer">ciudad del conocimiento</a><br>
+                <a href="https://github.com/SantiagoBoteroDiaz/MiniOS" target="_blank" rel="noopener noreferrer">MiniOS</a><br>
+                <img src="img/html-y-css.png" width="300px" height="auto">
+
+            </div>
+
+        </section>
+
     </main>
 </body>
 </html>
