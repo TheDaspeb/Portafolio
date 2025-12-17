@@ -256,6 +256,12 @@ footer {
     font-size: 50px;
 }
 
+.correo p,
+.whatsapp p {
+  word-break: break-word;
+}
+
+
 footer h2{
     grid-column: 2/3;
 }
@@ -329,5 +335,39 @@ footer h2{
     width: 90%;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+}
+@media (max-width: 768px) {
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  footer h2 {
+    font-size: 2rem;
+  }
+
+  .descripcion-footer {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .iconos {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .bi {
+    font-size: 2.5rem;
+  }
+
+  .datos p {
+    font-size: 0.95rem;
+    word-break: break-word;
   }
 }
