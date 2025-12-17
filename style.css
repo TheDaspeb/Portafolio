@@ -78,6 +78,10 @@ header{
 
 }
 
+.caja3 img{
+    border-radius: 1.5rem;
+}
+
 .caja3:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 15px rgb(116, 195, 221);
